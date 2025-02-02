@@ -7,7 +7,7 @@ fun main() {
         println(result)
     }
     //This program is wrong
-}
+    }
 
 
 
