@@ -6,6 +6,7 @@ fun main() {
         val result = i % 2 == 0
         println(result)
     }
+    //This program is wrong
 }
 
 
