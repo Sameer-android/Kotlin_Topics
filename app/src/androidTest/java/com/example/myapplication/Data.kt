@@ -1,8 +1,8 @@
 package com.example.myapplication
 
-class Data (  var id:Int,
-              var name:String,
-              var phone:Int,
+class Data (  val id:Int,
+              val name:String,
+              val phone:Int,
               var city:String,
 )
 

@@ -1,13 +1,14 @@
 package com.example.myapplication
 
 fun main(){
-    dragObjects(arrayOf(Circle(4.0),Square(4.0),Player("Smiley")))
+    /*dragObjects(arrayOf(Circle(4.0),Square(4.0),Player("Smiley")))*/
 
 }
-
+/*
 interface Draggable{
     fun drag()
 }
+
 
 fun dragObjects(objects : Array<Draggable>){
     for (obj in objects){
@@ -37,4 +38,4 @@ class Square(val side:Double):Shape(){
 
 class Player(val name:String):Draggable{
     override fun drag() = println("$name is dragging")
-}
+}*/

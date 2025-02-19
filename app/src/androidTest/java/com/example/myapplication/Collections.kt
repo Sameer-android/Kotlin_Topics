@@ -125,20 +125,20 @@ fun main(args: Array<String>) {
 //        println(element)
 //    }
 
-//    var emData = arrayListOf<Data>()
-//    val em1 = Data(1,"Sumit",98565415,"Mohali")
-//    val em2 = Data(2,"Mohan",98569852,"Chandigarh")
-//    val em3 = Data(3,"Mr Beast",85693256,"Gurugram")
-//    val em4 = Data(4,"Mr Beast",85693256,"Gurugram")
-//
-//    emData.add(em1)
-//    emData.add(em2)
-//    emData.add(em3)
-//    emData.add(em4)
-//
-//    for (i in emData){
-//       println("${i.id} ${i.name} ${i.phone} ${i.city}")
-//    }
+    /*val emData = arrayListOf<Data>()
+    val em1 = Data(1,"Sumit",98565415,"Mohali")
+    val em2 = Data(2,"Mohan",98569852,"Chandigarh")
+    val em3 = Data(3,"Mr Beast",85693256,"Gurugram")
+    val em4 = Data(4,"Mr Beast",85693256,"Gurugram")
+
+    emData.add(em1)
+    emData.add(em2)
+    emData.add(em3)
+    emData.add(em4)
+
+    for (i in emData){
+       println("${i.id} ${i.name} ${i.phone} ${i.city}")
+    }*/
 
 
     //Working with Kotlin LinkedList.
@@ -164,7 +164,7 @@ fun main(args: Array<String>) {
 //    println(LinkedList.contains(12))
 //   println( LinkedList.contains(20))
 
-    var planet = LinkedList<String>()
+    /*val planet = LinkedList<String>()
     planet.addAll(listOf("venus","Mars","Earth"))
     println("first Planet ="+planet.first)
     println("first Planet ="+planet.last)
@@ -177,17 +177,17 @@ fun main(args: Array<String>) {
     planet.removeLast()
     println("Planets =" + planet)
     for (i in planet){
-        println("$i")
+        println(i)
     }
     planet.addAll(listOf("Jupiter","Saturn"))
     println()
     for (j in planet) {
-        println("$j")
+        println(j)
     }
     println()
     planet.add(2,"Jupiter")
     for (a in planet){
-        println("$a")
+        println(a)
     }
     println()
     if (planet.contains("Jupiter")){
@@ -218,4 +218,5 @@ fun main(args: Array<String>) {
 println()
     planet.reverse()
     println(planet)
+    */
 }
